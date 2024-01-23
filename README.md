@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-In this tutorial I will be showing you the prerequisites and installation of osTicket, an open-source ticketing system.<br />
+In this tutorial I will be showing you the prerequisites and the installation proccess of osTicket, an open-source ticketing system.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -22,11 +22,11 @@ In this tutorial I will be showing you the prerequisites and installation of osT
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Virtual Machine in Azure
+- Install / Enable IIS in Windows with CGI and Common HTTP Festures
+- Download and install necessary files
+- Configure Permissions
+- Practice within OsTicket
 
 <h2>Installation Steps</h2>
 

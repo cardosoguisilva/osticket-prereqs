@@ -23,7 +23,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 <h2>List of Prerequisites</h2>
 
 - Create Virtual Machine in Azure
-- Install / Enable IIS in Windows with CGI and Common HTTP Festures
+- Install / Enable IIS in Windows with CGI and Common HTTP Features
 - Download and Install Necessary Files
 - Configure Permissions
 - Practice within OsTicket
@@ -79,7 +79,8 @@ In this tutorial I will be showing you the prerequisites and installation procce
  
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/eeee7485-f263-46de-b0e9-9cac105fbf87)
 </p>
-<p> Open IIS as Admin and register PHP by clicking on "PHP Manager" then "Register new PHP Version". Provide a path to the php executable file by selecting php-cgi.exe in the php folder. </p>
+
+- Open IIS as Admin and register PHP by clicking on "PHP Manager" then "Register new PHP Version". Provide a path to the php executable file by selecting php-cgi.exe in the php folder that we created earlier. </p>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/0aeffeb9-f9fd-4422-be27-d7272385fc12)
 
@@ -87,8 +88,63 @@ In this tutorial I will be showing you the prerequisites and installation procce
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/4f2254bf-17ec-4c7d-b711-aac6ead8606f)
 
+
+<p>
+  <li>After these steps please restart the web server, press restart under "manage server" on the right hand side.</li>  </p>
+ 
+<li> Install osTicket v1.15.8</li>
 <p> </p>
-<p> </p>
+<p>
+i. Download osTicket from the Installation Files Folder
+  </p>
+<p>
+ii. Extract and copy “upload” folder to c:\inetpub\wwwroot  </p>
+
+ ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/be3ef338-14b7-485b-9e23-3ce39b24edf6)
+  
+    
+<p>
+iii. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+</p>
+
+<ol>
+  <li>Go to sites -> Default -> osTicket</li>
+<ul>
+<li>On the right, click “Browse *:80”</li>
+</ul>
+</ol>
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/b3dbc1eb-3e46-4843-a34d-36ed8d9a8b8d)
+
+- it should load this page, now we are going to enable some of these extensions.
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/b8f5f4aa-a391-4569-bc6b-0c35963b4583)
+
+- go to Osticket on IIS click “Enable or disable an extension”
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/442733ea-411e-497d-a4ec-1f8099884b03)
+
+- right click and enable these following extensions:
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/f33f12e2-bdb2-4925-b816-7dddef2fefdf)
+
+- Refresh the osTicket site in your browser
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/88c82eb0-3103-4957-b088-ba3535a70097)
+
+<p> Rename the folder ost-config.php from: C:\inetpub\wwwroot\osTicket\include\<b>ost-sampleconfig.php</b> To: C:\inetpub\wwwroot\osTicket\include\<b>ost-config.php</b>
+<b></b>
+ </p>
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/fc73daec-3207-4ee6-8243-19d3ede3894b)
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/1efa2622-1c78-4034-a2cc-e57a4b3d6c78)
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/0d61688b-fcd0-4643-bb57-189d87ba8c5e)
+
+
+ 
 <br />
 
 <h4>Step 4</h4>

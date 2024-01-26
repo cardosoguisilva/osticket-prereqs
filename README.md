@@ -143,8 +143,21 @@ New Permissions -> Everyone -> All
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/0d61688b-fcd0-4643-bb57-189d87ba8c5e)
 
+Continue Setting up osTicket in the browser (click Continue)
+Name Helpdesk
+Default email (receives email from customers)
 
- 
+ ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/adfba529-bdf0-4e0f-888a-d57f4157fdbd)
+
+From the Installation Files, download and install HeidiSQL.
+Open Heidi SQL
+Create a new session, root/Password1
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/55fe518a-e473-4849-a2c0-b6783273310a)
+
+Connect to the session
+Create a database called “osTicket”
+
+
 <br />
 
 <h4>Step 4</h4>

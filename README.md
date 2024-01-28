@@ -37,7 +37,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/95dccdcf-c4be-47f9-aec2-267e28a66071)
 
 <h4>Step 2</h4>
-<p>Log into your virtual machine with remote desktop, install and enable IIS within VM. In order to do that, please select all the highlighted squares and press "okay" to install. To make sure you installed correctly open a web browser and go to 127.0.0.1, it should open up IIS.
+<p>Log into your virtual machine with remote desktop, install and enable IIS. In order to do that, please select all the highlighted squares and press "okay" to install. To make sure you installed correctly open a web browser and go to 127.0.0.1, it should open up IIS.
 </p>
 <br />
 
@@ -149,13 +149,34 @@ Default email (receives email from customers)
 
  ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/adfba529-bdf0-4e0f-888a-d57f4157fdbd)
 
-From the Installation Files, download and install HeidiSQL.
+- don't click install just yet.
+
+- From the Installation Files, download and install HeidiSQL.
 Open Heidi SQL
-Create a new session, root/Password1
+Create a new session, root/Password1. Click on open.
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/55fe518a-e473-4849-a2c0-b6783273310a)
 
-Connect to the session
-Create a database called “osTicket”
+
+- Create a database called “osTicket”
+- Click on "Unamed", Create new, Database
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/56f6172d-ac90-44e7-b046-84d15e2a5d8a)
+  
+- After all these steps your Osticket installer page should be looking similar to mine.
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/c035d098-e7fb-4366-aaa0-324b9338b175)
+
+- Now go ahead and click install now and if you followed all my instructions this page will open.
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/f9ad1af7-75e6-4778-8e77-7cd48fa8dfb0)
+
+-Clean up
+1) Delete the "SETUP" folder in C:\inetpub\wwwroot\osTicket\setup 
+2) Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/01973ec7-8029-41ff-a945-5e98131c04cf)
+
+
+-  Log into your account on: http://localhost/osTicket/scp/login.php using the log in we have made ealier. Mine for exemple was Login: "guilherme@gmail.com" Password: "Password1"
+
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/a18784e2-a448-4d79-a639-2593bc6221eb)
 
 
 <br />

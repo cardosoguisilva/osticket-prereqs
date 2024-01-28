@@ -181,15 +181,3 @@ Create a new session, root/Password1. Click on open.
 
 <br />
 
-<h4>Step 4</h4>
-<p>Create an Azure Virtual Machine Windows 10, 4 vCPUs. Username and password of your choice.
-</p>
-<br />
-
-![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/95dccdcf-c4be-47f9-aec2-267e28a66071)
-<h4>Step 5</h4>
-<p>Create an Azure Virtual Machine Windows 10, 4 vCPUs. Username and password of your choice.
-</p>
-<br />
-
-![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/95dccdcf-c4be-47f9-aec2-267e28a66071)

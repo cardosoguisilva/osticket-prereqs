@@ -30,8 +30,6 @@ In this tutorial I will be showing you the prerequisites and installation procce
 - Create Virtual Machine in Azure
 - Install / Enable IIS in Windows with CGI and Common HTTP Features
 - Download and Install Necessary Files
-- Configure Permissions
-- Practice within OsTicket
 
 <h2>Installation Steps</h2>
 <h4>Step 1</h4>

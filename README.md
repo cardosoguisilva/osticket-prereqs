@@ -197,7 +197,7 @@ NOTE: everything from username and password is your choice, just make sure to ke
 
 <br>
 
-- For clean up Delete the "SETUP" folder in C:\inetpub\wwwroot\osTicket\setup AND <br>
+<p> - For clean up Delete the "SETUP" folder in C:\inetpub\wwwroot\osTicket\<b>setup</b> AND <br>
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
   

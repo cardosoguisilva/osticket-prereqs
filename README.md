@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-In this tutorial I will be showing you the prerequisites and installation proccess of osTicket, an open-source ticketing system.<br />
+In this tutorial, I will be showing you the prerequisites and installation process of osTicket, an open-source ticketing system.<br />
 
 
 
@@ -27,7 +27,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 
 <h2>List of Prerequisites</h2>
 
-- Create Virtual Machine in Azure
+- Create a Virtual Machine in Azure
 - Install / Enable IIS in Windows with CGI and Common HTTP Features
 - Download and Install Necessary Files
 
@@ -45,7 +45,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 <h4>Step 2</h4>
 <p>
   <ul>
-    <li> Log into your virtual machine with remote desktop, install and enable IIS. In order to do that, please select all the highlighted squares and press "okay" to install. To make sure you installed correctly open a web browser and go to 127.0.0.1, it should open up IIS.</li>
+    <li> Log into your virtual machine with remote desktop, install and enable IIS. In order to do that, please select all the highlighted squares and press "okay" to install. To make sure you installed it correctly, open a web browser and go to 127.0.0.1. It should open up IIS.</li>
     </ul>
  
 </p>
@@ -62,11 +62,11 @@ In this tutorial I will be showing you the prerequisites and installation procce
 <li>PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</li>
 <li>Rewrite Module (rewrite_amd64_en-US.msi)</li> </ol>
 
-- Before dowloading the remaining files create a directory C:\PHP
+- Before downloading the remaining files, create a directory C:\PHP
 <ol start="3" >
-<li>Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. Note: If you have any trouble downloading PHP 7.3.8, please try replicating the same proccess on Google Chrome.</li>
+<li>Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. Note: If you have any trouble downloading PHP 7.3.8, please try replicating the same process on Google Chrome.</li>
 <li>VC_redist.x86.exe</li>
-<li>MySQL 5.5.62 (mysql-5.5.62-win32.msi)</li> 
+<li>MySQL 5.5.62 (MySQL-5.5.62-win32.msi)</li> 
 <ul><br>
 <li>Typical Setup1</li> <br>
   
@@ -98,7 +98,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 
 <p>
   <ul>
-  <li>After these steps please restart the web server, press restart under "manage server" on the right hand side.</li> </ul> </p>
+  <li>After these steps, please restart the web server; press restart under "manage server" on the right-hand side.</li> </ul> </p>
 
  <ol start="6">
 <li>Install osTicket v1.15.8</li>
@@ -117,7 +117,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 </ol>
 <br>
 
-- It should load this page, now we are going to enable some of these extensions.
+- It should load this page; now we are going to enable some of these extensions.
 <br>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/b8f5f4aa-a391-4569-bc6b-0c35963b4583)
@@ -125,13 +125,13 @@ In this tutorial I will be showing you the prerequisites and installation procce
 
 <br>
 
-- Go to Osticket on IIS click “Enable or disable an extension”<br>
+- Go to osticket on IIS and click “Enable or disable an extension.”<br>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/442733ea-411e-497d-a4ec-1f8099884b03)
 
 <br>
 
-- Right click and enable these following extensions:<br>
+- Right-click and enable the following extensions:<br>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/f33f12e2-bdb2-4925-b816-7dddef2fefdf)
 
@@ -152,7 +152,7 @@ In this tutorial I will be showing you the prerequisites and installation procce
 Disable inheritance -> Remove All <br>
 New Permissions -> Everyone -> All
 
-![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/fc73daec-3207-4ee6-8243-19d3ede3894b)
+![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/fc73daec-3207-4ee,6-82will94b)
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/1efa2622-1c78-4034-a2cc-e57a4b3d6c78)
 
@@ -169,7 +169,7 @@ New Permissions -> Everyone -> All
   ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/55fe518a-e473-4849-a2c0-b6783273310a)
   
 <li>Create a database called “osTicket”</li> <br> 
-<li>Click on "Unamed", Create new, Database</li>
+<li>Click on "Unnamed", Create new, Database</li>
 <br>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/56f6172d-ac90-44e7-b046-84d15e2a5d8a)
@@ -179,17 +179,17 @@ New Permissions -> Everyone -> All
 
 
 - Continue Setting up osTicket in the browser (click Continue) 
-- Set up  Name of Helpdesk and the Default email (receives email from customers) <br>
-NOTE: everything from username and password is your choice, just make sure to keep a record of it in case you forget.
+- Set up  the Name of Helpdesk and the Default email (receives an email from customers) <br>
+NOTE: everything from username and password is your choice; make sure to keep a record of it in case you forget.
 
-- After all these steps your Osticket installer page should be looking similar to mine. 
+- After all these steps, your Osticket installer page should look similar to mine. 
 <br>
 
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/c035d098-e7fb-4366-aaa0-324b9338b175)
 
 <br>
 
-- Now go ahead and click install now and if you followed all my instructions this page will open.
+- Go ahead and click install now, and if you followed all my instructions, this page will open.
 
 <br>
    
@@ -204,7 +204,7 @@ Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-conf
 ![image](https://github.com/cardosoguisilva/osticket-prereqs/assets/157248613/01973ec7-8029-41ff-a945-5e98131c04cf)
 
 
--  Log into your account on: http://localhost/osTicket/scp/login.php using the log in we have made ealier. Mine for exemple was Login: "guilherme@gmail.com" Password: "Password1"
+- Log into your account at http://localhost/osTicket/scp/login.php using the login we made earlier. Mine, for example, was Login: "guilherme@gmail.com" Password: "Password1"
   
 <br>
 

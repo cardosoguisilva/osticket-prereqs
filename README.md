@@ -7,12 +7,6 @@ In this tutorial, I will be showing you the prerequisites and installation proce
 
 
 
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 <ul>
